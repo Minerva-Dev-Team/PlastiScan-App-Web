@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/static/imagenes/plastiscan.png" type="image/x-icon">
+    <meta name="description"
+        content="Esta web está dedicada a informar sobre el proyecto Plastiscan, creado por Minerva Dev Team, que consiste en identificar y clasificar microplásticos en imagenes de muestra, gracias a un modelo de IA preentrenado.Este proyecto es nuestro trabajo final del curso de diploma universitario en Inteligencia Artificial Avanzada en el programa de Samsung Innovation Campus junto la Universidad de Málaga.">
+    <meta name="keywords"
+        content="Plastiscan, UMA, Samsung, IA, microplásticos, Inteligencia Artififial, Proyecto, MinervaDevTeam, Samsung Innovation Campus">
+    <link rel="canonical" href="https://plastiscan.org">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preload" href="/font/CodecColdTrial-ExtraBold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/font/CodecColdTrial-ExtraBold.woff" as="font" type="font/woff" crossorigin>
+    <link rel="apple-touch-icon" href="/static/imagenes/plastiscan.png">
+    <title>Proyecto PlastiScan</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <img class="minerva-logo" src="/static/imagenes/minervaLOGO.png" alt="logo de Minerva Dev Team">
+        <button class="abrir-menu" id="abrir"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x-lg"></i></button>
+            <ul class="nav-links">
+                <li><a href="#nuestro-proyecto" title="Ir a la sección Proyecto">Proyecto</a></li>
+                <li><a href="#pruebalo" title="Ir a la sección Pruébalo">Pruébalo</a></li>
+                <li><a href="#nosotras" title="Ir a la sección Nosotras">Nosotras</a></li>
+                <li><a href="#contacto" title="Ir a la sección de Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h1>PlastiScan IA</h1>
+        <p>Clasificación de microplásticos con Machine Learning</p>
+    </section>
+    <main>
+        <section id="nuestro-proyecto" class="seccion-principal">
+            <h2 class = "proyecto-h2">PROYECTO PLASTISCAN</h2>
+            <article class="proyecto">
+                <picture class="picture-proyecto">
+                    <img class = "img-proyecto" src="/static/imagenes/image.png" alt="Imagen de un planeta con contaminación en los océanos">
+                </picture>
+                <p>
+                    La contaminación por microplásticos es una de las principales preocupaciones ambientales a nivel mundial, 
+                    y los océanos son especialmente vulnerables debido a la acumulación continua de residuos plásticos. 
+                    La fragmentación de plásticos más grandes en partículas más pequeñas es un fenómeno preocupante que puede tener efectos devastadores
+                    en la vida marina y en los ecosistemas acuáticos en general.
+                </P>
+                <P>    
+                    Según un estudio publicado en la revista científica Environmental Science & Technology, se estima que hay entre 15 y 51 billones de partículas
+                    de microplásticos flotando en los océanos del mundo. Poder clasificarlos de manera ágil es el punto de partida para elaborar estrategias que nos
+                    permitan avanzar en la lucha frente a este tipo de contaminantes.
+                </p>
+                <P>
+                    La detección y clasificación son pasos fundamentales para implementar medidas efectivas de mitigación. En el contexto de la
+                    detección de microplásticos en imágenes, o Redes Neuronales Convolucionales, se pueden entrenar modelos CNN para reconocer 
+                    patrones visuales específicos asociados con microplásticos en imágenes de muestras de agua.
+                    Estos modelos pueden ser capaces de distinguir entre microplásticos y otros objetos o materiales presentes en la muestra, 
+                    lo que permite una detección precisa y eficiente. 
+                </P>
+                
+            </article>
+
+            <article class="proyecto plastiscan">
+                
+                <div class="div-plastiscan">
+                    <picture class = "picture-plastiscan">
+                        <img class = "logo" src="/static/imagenes/plastiscan_logo.png" title="PlastiScan Logo"
+                            alt="imagen del logo de PlastiScan">
+                    </picture>
+                    <h3 class="oculto">PLASTISCAN</h3>
+                    <p>
+                        PlastiScan nace como una herramienta para la investigación, con el objetivo de ayudar a comprender cómo y a qué niveles afecta la contaminación por microplásticos,
+                        controlar las fuentes de contaminación más habituales o entender cómo se degradan en partículas cada vez más pequeñas a lo largo del tiempo.
+                    </p>
+                    <P>
+                        Ponemos nuestro proyecto a disposición de investigadores, organismos y cualquier entidad que quiera avanzar en este mismo sentido,
+                        por eso lo compartimos bajo licencia Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0), 
+                        que permite compartir y adaptar el material siempre que se reconozca a las autoras originales, no se utilice comercialmente y se distribuyan
+                        las obras derivadas bajo la misma licencia.<br/>
+                        <span class="dataset">El dataset utilizado se ha descargado de https://corp.pirika.org/en/public-survey-results/.</span>
+                    </p>
+                </div>  
+            </article>
+
+            <article class="proyecto aplicaciones">
+                <h3>APLICACIONES</h3>
+                <p>
+                    Los objetivos específicos del proyecto incluyen el diseño y la implementación de una
+                    Red Neuronal Convolucional para la clasificación precisa de microplásticos a partir de imágenes microscópicas.
+                    Las posibles aplicaciones de la tecnología desarrollada son diversas:
+                </p>
+                    abarcando desde su utilización en la monitorización ambiental para evaluar 
+                    la contaminación por microplásticos en diferentes cuerpos de agua, hasta su aplicación en la investigación científica para estudiar los efectos de
+                    los microplásticos en los ecosistemas acuáticos y su potencial uso en la gestión de residuos para identificar fuentes y rutas de contaminación.
+                </p>
+                <ul>
+                    <li>Utilización en la monitorización ambiental para evaluar 
+                        la contaminación por microplásticos en diferentes cuerpos de agua.</li>
+                    <li>Aplicación en la investigación científica para estudiar los efectos de
+                        los microplásticos en los ecosistemas acuáticos.</li>
+                    <li>Gestión de residuos para identificar fuentes y rutas de contaminación.</li>
+                    <li>Educación y concienciación: Desarrollar una aplicación móvil utilizando el modelo que permita a
+                        los usuarios identificar la posible contaminación por microplásticos.
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="pruebalo" class="seccion-principal">
+            <h2>CLASIFICA TU IMAGEN</h2>
+            <div class="subir-archivo">
+                <form action="/predict" method="post" enctype="multipart/form-data">
+                    <input type="file" name="file" accept=".png, .jpg, .jpeg, .gif" required>
+                    <button type="submit" class="btn btn-outline-success">Predecir</button>
+                </form>
+            </div>
+            <picture class="picture-pruebalo">
+                <P>
+                    Clasifica una imagen usando el modelo PlastiScan IA.<br /> Para que el modelo pueda detectar de manera más
+                    precisa el tamaño
+                    de la muestra de plástico, es recomendable que incluyas en la imagen una referencia a la escala de la
+                    fotografía.
+                    Lo ideal es que incorpores en un lado de la imagen una línea que represente la medida de sí misma en el mundo
+                    real, de esta manera:
+                </P>
+                <img src="/static/imagenes/imagen-prueba.png" alt="instrucciones de la imagen a subir">
+            </picture>
+        </section>
+
+        <section id="nosotras" class="seccion-principal">
+            <h2>MINERVA DEV TEAM</h2>
+            <picture class = "picture-nosotras">
+            <p>
+                Somos un equipo de trabajo multidisciplinar que se formó para elaborar el Proyecto Final del I DIPLOMA DE EXTENSIÓN UNIVERSITARIA
+                EN INTELIGENCIA ARTIFICIAL AVANZADA SAMSUNG INNOVATION CAMPUS (2023-24) de la Universidad de Málaga, que aborda de manera intensiva el aprendizaje de programación con Python,
+                matemáticas para la ciencia de datos, estadística y desarrollo de aplicaciones basadas en diferentes ramas del Machine Learning.
+            </p>
+            <p>
+                Elegimos este nombre porque en la mitología romana, Minerva es la diosa de la sabiduría, las artes, la estrategia, la justicia, la educación y el desarrollo.
+                Es considerada una de las principales deidades femeninas del panteón romano. Admiramos la figura de esta diosa en las leyendas y mitos de la antigua Roma, 
+                en la cual se le atribuyen importantes méritos como la educación de Rómulo y Remo, los fundadores de la ciudad.
+            </p>
+            
+                <img src="/static/imagenes/nosotras.png" alt="Minerva Dev Team">
+            </picture>
+        </section>
+
+        <section id="contacto" class="seccion-principal">
+            <h3>CONTACTA CON EL EQUIPO PLASTISCAN</h3>
+
+            <section class = "seccion-email">
+                <p>
+                    Puedes contactarnos escribiendo un email a esta dirección, o bien a través del
+                    formulario más abajo:
+                </p>
+                <div class="contenedor-email">
+                    <label for="email-copia">Email:</label>
+                    <a href="mailto:hola@plastiscan.org" id="email-copia">hola@plastiscan.org</a>
+                    <button id="boton-mail" title="Copiar Email" onclick="copiarEmail()">
+                        <img src="/static/imagenes/copy.png" alt="imagen portapapeles">
+                    </button>
+                </div>
+            </section>
+
+            <section class = "formulario">
+                <div class= "formulario-div">
+                    <form action="/contacto" method="post">
+                        <label for="nombre">Nombre completo:</label>
+                        <input type="text" id="nombre" name="nombre" maxlength="80" required>
+
+                        <label for="email">Email de contacto:</label>
+                        <input type="text" id="email" name="email" required>
+
+                        <label for="asunto">Asunto:</label>
+                        <input type="text" id="asunto" name="asunto" required>
+
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" cols="40" rows="20" maxlength="400" required></textarea>
+
+                        <button class="btn btn-success" type="submit" value="Enviar"> Enviar </button>
+                    </form>
+                </div>
+                <picture class="picture-formulario">
+                    <img class = "minerva-logo" src="/static/imagenes/minervaICON.png" alt="imagen logotipo de minerva dev team">
+                </picture>
+            </section>
+
+            <section class="privacidad">
+                <ul class="footer-list">
+                    <li class="footer-item">- Política de Privacidad:
+                        En Plastiscan, respetamos tu privacidad. No recopilamos información personal, no hay necesidad de registrarse ni recabamos datos de quienes visitan nuestra web. Tus datos son tuyos y no los compartiremos ni venderemos a terceros.
+                    </li>
+                    <li class="footer-item">- Política de Cookies:
+                        Utilizamos las cookies estándar de tu navegador para mejorar tu experiencia en Plastiscan. No realizamos seguimiento activo ni recopilamos información adicional mediante cookies. Puedes gestionar tus preferencias de cookies desde la configuración de tu navegador.
+                    </li>
+                    <li class="footer-item">- Términos de Uso:
+                        Te damos la bienvenida a Plastiscan, un proyecto del Minerva Dev Team. Al acceder y utilizar nuestra web, aceptas que la información proporcionada es para fines informativos y educativos. La reproducción con fines lucrativos está prohibida, ya que todo el contenido está bajo licencia Creative Commons.
+                    </li>
+                    <li class="footer-item">- Licencia Creative Commons:
+                        Todo el contenido en Plastiscan está protegido bajo la licencia Creative Commons. Puedes compartir, copiar y distribuir el material siempre y cuando se otorgue crédito al Minerva Dev Team, pero no se permite su uso con fines lucrativos. Más información sobre nuestra licencia se encuentra disponible en la sección correspondiente.
+                    </li>
+                    <li class="footer-item">- Créditos:
+                        Todas las imágenes han sido creadas con la tecnología DALL-E.
+                    </li>
+                </ul>
+            </section>
+
+    </main>
+    <footer>
+        
+        <p>&copy; Minerva Dev Team 2024</p>
+        <nav class = "redes">
+            <ul>
+                <li><a href="mailto:hola@plastiscan.org" target="_blank"><i class="bi bi-envelope-at-fill"> contacta </i></a></li>
+                <li><a href="https://github.com/Minerva-Dev-Team" target="_blank"><i class="bi bi-github"></i></a></li>
+            </ul>
+        </nav>
+    </footer>
+    
+    <script src="/static/js/main.js"></script>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W1LPDN3J1T"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-W1LPDN3J1T');
+    </script>
+
+</body>
+
+</html>

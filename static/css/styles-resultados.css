@@ -1,0 +1,70 @@
+:root {
+    --font-codec: "Codec Cold Trial";
+    --font-oswald: "Oswald", sans-serif;
+    --font-roboto: "Roboto", sans-serif;
+    --font-open: "Open Sans", sans-serif;
+    --color-primario: rgba(54, 118, 106, 1);
+    --color-secundario: rgba(5, 5, 5, 1);
+    --color-terciario: rgba(242, 241, 235, 0.85);
+    --color-terciario-transparencia: rgba(242, 241, 235, 0.5);
+    --color-blanco: rgba(255, 255, 255, 1);
+    --color-filtro: rgba(3, 28, 44, 1);
+}
+
+/* Estilos para la sección de resultados */
+.resultados-contenedor {
+    font-family: var(--font-open);
+    color: var(--color-secundario);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 30px;
+}
+
+.resultados-contenedor h1 {
+    font-family: var(--font-codec);
+    font-weight: bolder;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-top: 40px;
+}
+.resultados-contenedor h2 {
+    color: var(--color-primario);
+    text-align: center;
+    margin: 20px;
+}
+
+.resultados-contenedor p {
+    margin: 5px;
+    width: 100%;
+}
+
+/* Estilos para las tarjetas de resultados */
+.resultados-contenedor article {
+    background-color: var(--color-terciario-transparencia);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px; 
+    padding: 30px; 
+    margin-bottom: 20px; 
+}
+
+.resultados{
+    width: fit-content;
+    max-width: 400px;
+}
+
+/* Estilos para el botón de volver */
+.btn{
+    display: block;
+    margin-left: auto; 
+    margin-right: auto; 
+    background-color: var(--color-primario);
+    padding: 10px;
+    font-size: 1.5em;
+    width: 150px;
+    margin-bottom: 20px; 
+}
