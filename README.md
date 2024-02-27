@@ -11,7 +11,7 @@ Nuestro objetivo ha sido siempre el de conseguir que el modelo sea accesible y u
  - HTML
  - CSS
  - JavaScript
- - Flask para la carga y procesamiento del modelo y la creación de la app web.
+ - Flask para la carga y procesamiento del modelo y la creación de la app web. 
 
 
 ## 👩‍💻 Sobre Nosotras
