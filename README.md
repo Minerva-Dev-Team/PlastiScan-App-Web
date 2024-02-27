@@ -24,12 +24,13 @@ Si tienes alguna pregunta sobre este proyecto o si más información, por favor 
   <a href="mailto:plastiscania@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
 
 
-## Licencia
-
-Este proyecto está licenciado bajo una licencia Creative Commons con limitaciones para el uso comercial.<br/> 
-Ponemos nuestro proyecto a disposición de investigadores, organismos y cualquier entidad que quiera avanzar en este mismo sentido, por eso lo compartimos bajo licencia Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0), que permite compartir y adaptar el material siempre que se reconozca a las autoras originales, no se utilice comercialmente y se distribuyan las obras derivadas bajo la misma licencia.<br/> 
-Visita la licencia en https://creativecommons.org/licenses/by-nc/4.0/ para más detalles.
-
 ## Contribuciones
 
 Aceptamos contribuciones a este proyecto bajo los términos de la licencia Creative Commons. Por favor, lee las directrices de contribución antes de enviar una solicitud de extracción.
+
+
+## 🛡️ Licencia
+
+*Este proyecto está licenciado bajo [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc/4.0/), una licencia Creative Commons que permite compartir y adaptar el material bajo las siguientes condiciones: reconocimiento a los autores originales, no uso comercial y distribución de obras derivadas bajo la misma licencia.*
+
+*Visita [aquí](https://creativecommons.org/licenses/by-nc/4.0/) para obtener más detalles.*
