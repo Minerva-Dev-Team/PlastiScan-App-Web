@@ -24,7 +24,7 @@ Somos un equipo de trabajo multidisciplinar que se formó para elaborar el Proye
 Si tienes alguna pregunta sobre este proyecto o si más información, por favor ponte en contacto con nosotras.
 * Puedes acceder a la web en www.plastiscan.org
 * A través de nusetro correo electrónico:<br/> 
-  <a href="mailto:hola@plastiscan.org" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+  <a href="mailto:plastiscania@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
 
 
 ## Licencia
