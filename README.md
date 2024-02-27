@@ -14,10 +14,7 @@ Nuestro objetivo ha sido siempre el de conseguir que el modelo sea accesible y u
  - Flask para la carga y procesamiento del modelo y la creación de la app web.
 
 
-## 👩‍💻 Sobre Nosotras
-Somos un equipo de trabajo multidisciplinar que se formó para elaborar el Proyecto Final del I DIPLOMA DE EXTENSIÓN UNIVERSITARIA EN INTELIGENCIA ARTIFICIAL AVANZADA SAMSUNG INNOVATION CAMPUS (2023-24) de la Universidad de Málaga, que aborda de manera intensiva el aprendizaje de programación con Python, matemáticas para la ciencia de datos, estadística y desarrollo de aplicaciones basadas en diferentes ramas del Machine Learning.
-
-<img src="https://plastiscan.org/static/imagenes/minervaLOGO.png" alt="logo de Minerva Dev Team" width="350px">
+<img src="https://plastiscan.org/static/imagenes/plastiscan_logo.png" alt="logo de Plastiscan IA" width="300px">
 
 
 ## 🔗 Contacto
